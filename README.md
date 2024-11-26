@@ -17,17 +17,16 @@ Short Summary for libraries
 
 Quick install libraries 
 
->pip install selenium pandas playsound fuzzywuzzy
-
+	pip install selenium pandas playsound fuzzywuzzy
 
 Dependencies
   
-	Stable internet connection
- 	Compactable chromedriver.exe
-	Inventory excel for quick ticket scope identification
-	Chrome browser
-	Python and the libraries
-	Notification sound.wav 
+> 1. Stable internet connection
+> 2. Compactable chromedriver.exe
+> 3. Inventory excel for quick ticket scope identification
+> 4. Chrome browser
+> 5. Python and the libraries
+> 6. Notification sound.wav 
 
 Pre assignments to be made in code
 
