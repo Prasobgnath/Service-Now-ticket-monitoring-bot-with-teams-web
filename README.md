@@ -13,6 +13,7 @@ Short Summary for libraries
 >2. Pandas: This library is essential for data manipulation and analysis. It provides data structures like DataFrames, which make it easy to handle and analyze large 	datasets. You can perform operations like merging, reshaping, and aggregating data with ease.
 >3. Playsound: This is a simple library for playing sound files. It’s lightweight and easy to use, making it perfect for adding audio notifications or sound effects to 	your Python projects.
 >4. FuzzyWuzzy: This library is used for fuzzy string matching. It uses the Levenshtein Distance to calculate the differences between sequences, which is useful for 	tasks like deduplication, record linkage, and matching strings that are similar but not exactly the same
+>5. Time: Provides functions for working with time-related tasks, such as getting the current time, formatting dates and times, and calculating time differences.
 
 
 Quick install libraries 
