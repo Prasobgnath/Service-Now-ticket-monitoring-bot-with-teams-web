@@ -9,7 +9,7 @@ External libraries used
   >selenium, pandas, playsound , fuzzywuzzy
 
 Short Summary for libraries
-* [Selenium]([https://example.com](https://www.selenium.dev/documentation/)): This is a powerful tool for automating web browsers. It’s commonly used for web scraping, testing web applications, and automating repetitive web tasks. 	You can control browsers like Chrome, Firefox, and Safari using Selenium.
+* [Selenium](https://example.com](https://www.selenium.dev/documentation/): This is a powerful tool for automating web browsers. It’s commonly used for web scraping, testing web applications, and automating repetitive web tasks. 	You can control browsers like Chrome, Firefox, and Safari using Selenium.
 >2. Pandas: This library is essential for data manipulation and analysis. It provides data structures like DataFrames, which make it easy to handle and analyze large 	datasets. You can perform operations like merging, reshaping, and aggregating data with ease.
 >3. Playsound: This is a simple library for playing sound files. It’s lightweight and easy to use, making it perfect for adding audio notifications or sound effects to 	your Python projects.
 >4. FuzzyWuzzy: This library is used for fuzzy string matching. It uses the Levenshtein Distance to calculate the differences between sequences, which is useful for 	tasks like deduplication, record linkage, and matching strings that are similar but not exactly the same
