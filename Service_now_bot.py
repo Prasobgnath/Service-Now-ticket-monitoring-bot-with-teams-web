@@ -89,8 +89,7 @@ def main(counter):
             outof = driver.execute_script("return arguments[0].textContent;", incoutof)
 
             print("Total Tickets Open :", element_text, "\n")
-            # inc = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[aria-label*='Open record: INC']")))
-            # inc_num = driver.execute_script("return arguments[0].textContent;", inc)
+
             print("{:<11} : {:<15} : {:<15} : {:<20} : {:<20} : {} ".format("Number", "Priority", "State",
                                                                             "Assignment Group", "Assigned_to",
                                                                             "Short Description"))
@@ -210,7 +209,7 @@ def main(counter):
 
         def message():
             #  switch to teams tab
-            driver.get("https://teams.microsoft.com/v2/")
+            driver.get("https://teams.microsoft.com")
             time.sleep(15)
             try:
                 gre1 = "Hi Team, We Have Unassigned Tickets in Queue"
@@ -262,7 +261,7 @@ def main(counter):
             playsound(sound)
             message()
         else:
-            driver.get("https://teams.microsoft.com/v2/")
+            driver.get("https://teams.microsoft.com") #for maintaining the teams session for longer time
 
 
     except (JavascriptException, TimeoutException, NameError, WebDriverException) as er:
