@@ -59,10 +59,10 @@ def main(counter):
         time.sleep(10)
 
         # Default frame
-        shadowroot = driver.execute_script("return document.querySelector('body>macroponent-f51912f4c700201072b211d4d8c26010').shadowRoot.querySelector('sn-canvas-appshell-root')")
+        shadowroot = driver.execute_script("return document.querySelector('body>mac72b211d4d8c26010').shadowRoot.querySelector('sn-canvas-appshell-root')")
 
         # Switching to Main iframe contains all the inc details.
-        iframe = driver.execute_script("return document.querySelector('body > macroponent-f51912f4c700201072b211d4d8c26010').shadowRoot.querySelector('[id*=main]')")
+        iframe = driver.execute_script("return document.querySelector('body > mac072b211d4d8c26010').shadowRoot.querySelector('[id*=main]')")
         driver.switch_to.frame(iframe)
 
         # Checking if record is empty.
